@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71CF84892227845D00192855 /* Expression.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71CF847F2227845D00192855 /* Expression.framework */; };
+		71CF848E2227845D00192855 /* ExpressionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CF848D2227845D00192855 /* ExpressionTests.m */; };
+		71CF84902227845D00192855 /* Expression.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CF84822227845D00192855 /* Expression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CF84A6222784CC00192855 /* JADefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CF849B222784CB00192855 /* JADefines.h */; };
+		71CF84A7222784CC00192855 /* JAOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CF849D222784CB00192855 /* JAOperator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CF84A8222784CC00192855 /* JASymbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CF849E222784CB00192855 /* JASymbol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CF84A9222784CC00192855 /* JAObjectType.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CF849F222784CB00192855 /* JAObjectType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CF84AA222784CC00192855 /* JAExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CF84A0222784CB00192855 /* JAExpression.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CF84AB222784CC00192855 /* JAOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CF84A1222784CB00192855 /* JAOperator.m */; };
+		71CF84AC222784CC00192855 /* JAObjectType.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CF84A2222784CC00192855 /* JAObjectType.m */; };
+		71CF84AD222784CC00192855 /* JASymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CF84A3222784CC00192855 /* JASymbol.m */; };
+		71CF84AE222784CC00192855 /* JANode.h in Headers */ = {isa = PBXBuildFile; fileRef = 71CF84A4222784CC00192855 /* JANode.h */; };
+		71CF84AF222784CC00192855 /* JAExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CF84A5222784CC00192855 /* JAExpression.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71CF848A2227845D00192855 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71CF84762227845D00192855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71CF847E2227845D00192855;
+			remoteInfo = Expression;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71CF847F2227845D00192855 /* Expression.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expression.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CF84822227845D00192855 /* Expression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		71CF84832227845D00192855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CF84882227845D00192855 /* ExpressionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71CF848D2227845D00192855 /* ExpressionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpressionTests.m; sourceTree = "<group>"; };
+		71CF848F2227845D00192855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71CF849B222784CB00192855 /* JADefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JADefines.h; sourceTree = "<group>"; };
+		71CF849D222784CB00192855 /* JAOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAOperator.h; sourceTree = "<group>"; };
+		71CF849E222784CB00192855 /* JASymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JASymbol.h; sourceTree = "<group>"; };
+		71CF849F222784CB00192855 /* JAObjectType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAObjectType.h; sourceTree = "<group>"; };
+		71CF84A0222784CB00192855 /* JAExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAExpression.h; sourceTree = "<group>"; };
+		71CF84A1222784CB00192855 /* JAOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAOperator.m; sourceTree = "<group>"; };
+		71CF84A2222784CC00192855 /* JAObjectType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAObjectType.m; sourceTree = "<group>"; };
+		71CF84A3222784CC00192855 /* JASymbol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JASymbol.m; sourceTree = "<group>"; };
+		71CF84A4222784CC00192855 /* JANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JANode.h; sourceTree = "<group>"; };
+		71CF84A5222784CC00192855 /* JAExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAExpression.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71CF847C2227845D00192855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CF84852227845D00192855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CF84892227845D00192855 /* Expression.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71CF84752227845D00192855 = {
+			isa = PBXGroup;
+			children = (
+				71CF84812227845D00192855 /* Expression */,
+				71CF848C2227845D00192855 /* ExpressionTests */,
+				71CF84802227845D00192855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71CF84802227845D00192855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71CF847F2227845D00192855 /* Expression.framework */,
+				71CF84882227845D00192855 /* ExpressionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CF84812227845D00192855 /* Expression */ = {
+			isa = PBXGroup;
+			children = (
+				71CF8499222784CB00192855 /* Source */,
+				71CF84822227845D00192855 /* Expression.h */,
+				71CF84832227845D00192855 /* Info.plist */,
+			);
+			path = Expression;
+			sourceTree = "<group>";
+		};
+		71CF848C2227845D00192855 /* ExpressionTests */ = {
+			isa = PBXGroup;
+			children = (
+				71CF848D2227845D00192855 /* ExpressionTests.m */,
+				71CF848F2227845D00192855 /* Info.plist */,
+			);
+			path = ExpressionTests;
+			sourceTree = "<group>";
+		};
+		71CF8499222784CB00192855 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				71CF849A222784CB00192855 /* Quick */,
+				71CF849C222784CB00192855 /* Expression */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		71CF849A222784CB00192855 /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				71CF849B222784CB00192855 /* JADefines.h */,
+			);
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		71CF849C222784CB00192855 /* Expression */ = {
+			isa = PBXGroup;
+			children = (
+				71CF849D222784CB00192855 /* JAOperator.h */,
+				71CF84A1222784CB00192855 /* JAOperator.m */,
+				71CF849E222784CB00192855 /* JASymbol.h */,
+				71CF84A3222784CC00192855 /* JASymbol.m */,
+				71CF849F222784CB00192855 /* JAObjectType.h */,
+				71CF84A2222784CC00192855 /* JAObjectType.m */,
+				71CF84A0222784CB00192855 /* JAExpression.h */,
+				71CF84A5222784CC00192855 /* JAExpression.m */,
+				71CF84A4222784CC00192855 /* JANode.h */,
+			);
+			path = Expression;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		71CF847A2227845D00192855 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CF84A6222784CC00192855 /* JADefines.h in Headers */,
+				71CF84A9222784CC00192855 /* JAObjectType.h in Headers */,
+				71CF84A8222784CC00192855 /* JASymbol.h in Headers */,
+				71CF84A7222784CC00192855 /* JAOperator.h in Headers */,
+				71CF84902227845D00192855 /* Expression.h in Headers */,
+				71CF84AA222784CC00192855 /* JAExpression.h in Headers */,
+				71CF84AE222784CC00192855 /* JANode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71CF847E2227845D00192855 /* Expression */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CF84932227845D00192855 /* Build configuration list for PBXNativeTarget "Expression" */;
+			buildPhases = (
+				71CF847A2227845D00192855 /* Headers */,
+				71CF847B2227845D00192855 /* Sources */,
+				71CF847C2227845D00192855 /* Frameworks */,
+				71CF847D2227845D00192855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Expression;
+			productName = Expression;
+			productReference = 71CF847F2227845D00192855 /* Expression.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		71CF84872227845D00192855 /* ExpressionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71CF84962227845D00192855 /* Build configuration list for PBXNativeTarget "ExpressionTests" */;
+			buildPhases = (
+				71CF84842227845D00192855 /* Sources */,
+				71CF84852227845D00192855 /* Frameworks */,
+				71CF84862227845D00192855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71CF848B2227845D00192855 /* PBXTargetDependency */,
+			);
+			name = ExpressionTests;
+			productName = ExpressionTests;
+			productReference = 71CF84882227845D00192855 /* ExpressionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71CF84762227845D00192855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = paopao;
+				TargetAttributes = {
+					71CF847E2227845D00192855 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					71CF84872227845D00192855 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 71CF84792227845D00192855 /* Build configuration list for PBXProject "Expression" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71CF84752227845D00192855;
+			productRefGroup = 71CF84802227845D00192855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71CF847E2227845D00192855 /* Expression */,
+				71CF84872227845D00192855 /* ExpressionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71CF847D2227845D00192855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CF84862227845D00192855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71CF847B2227845D00192855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CF84AF222784CC00192855 /* JAExpression.m in Sources */,
+				71CF84AB222784CC00192855 /* JAOperator.m in Sources */,
+				71CF84AC222784CC00192855 /* JAObjectType.m in Sources */,
+				71CF84AD222784CC00192855 /* JASymbol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CF84842227845D00192855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CF848E2227845D00192855 /* ExpressionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71CF848B2227845D00192855 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71CF847E2227845D00192855 /* Expression */;
+			targetProxy = 71CF848A2227845D00192855 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		71CF84912227845D00192855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71CF84922227845D00192855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71CF84942227845D00192855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CBSF9HHS9Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Expression/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paopao.jarvis.Expression;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71CF84952227845D00192855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CBSF9HHS9Y;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Expression/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paopao.jarvis.Expression;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71CF84972227845D00192855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBSF9HHS9Y;
+				INFOPLIST_FILE = ExpressionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paopao.jarvis.ExpressionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71CF84982227845D00192855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CBSF9HHS9Y;
+				INFOPLIST_FILE = ExpressionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paopao.jarvis.ExpressionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71CF84792227845D00192855 /* Build configuration list for PBXProject "Expression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CF84912227845D00192855 /* Debug */,
+				71CF84922227845D00192855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CF84932227845D00192855 /* Build configuration list for PBXNativeTarget "Expression" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CF84942227845D00192855 /* Debug */,
+				71CF84952227845D00192855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71CF84962227845D00192855 /* Build configuration list for PBXNativeTarget "ExpressionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71CF84972227845D00192855 /* Debug */,
+				71CF84982227845D00192855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71CF84762227845D00192855 /* Project object */;
+}
